@@ -21,78 +21,78 @@
   --spacing-s: -0.08em;
   --spacing-m: -0.02em;
 
-  /* Light Mode Colors (Default) */
-  --bg: #ffffff;
-  --text-primary: rgba(0, 0, 0, 0.85);
-  --text-secondary: rgba(0, 0, 0, 0.4);
-  --text-tertiary: rgba(0, 0, 0, 0.24);
-  --border: rgba(0, 0, 0, 0.1);
-  --selection: rgba(0, 0, 0, 0.08);
-  --code-bg: rgba(0, 0, 0, 0.04);
-  --mark: #f3ffc4;
+  /* Sepia Light Mode Colors (Default) */
+  --bg: #f5ede0;
+  --text-primary: rgba(42, 22, 8, 0.88);
+  --text-secondary: rgba(42, 22, 8, 0.48);
+  --text-tertiary: rgba(42, 22, 8, 0.28);
+  --border: rgba(42, 22, 8, 0.12);
+  --selection: rgba(42, 22, 8, 0.1);
+  --code-bg: rgba(42, 22, 8, 0.06);
+  --mark: #e8c87a;
 
-  /* Syntax Theme  */
-  --astro-code-foreground: rgba(0, 0, 0, 0.85);
-  --astro-code-background: rgba(0, 0, 0, 0.03);
-  --astro-code-token-constant: rgba(0, 0, 0, 0.85);
-  --astro-code-token-string: rgba(0, 0, 0, 0.85);
-  --astro-code-token-comment: rgba(0, 0, 0, 0.35);
-  --astro-code-token-keyword: rgba(0, 0, 0, 0.55);
-  --astro-code-token-parameter: rgba(0, 0, 0, 0.85);
-  --astro-code-token-function: rgba(0, 0, 0, 0.85);
-  --astro-code-token-string-expression: rgba(0, 0, 0, 0.55);
-  --astro-code-token-punctuation: rgba(0, 0, 0, 0.55);
-  --astro-code-token-link: rgba(0, 0, 0, 0.55);
+  /* Syntax Theme (Sepia Light) */
+  --astro-code-foreground: rgba(42, 22, 8, 0.88);
+  --astro-code-background: rgba(42, 22, 8, 0.04);
+  --astro-code-token-constant: rgba(42, 22, 8, 0.88);
+  --astro-code-token-string: rgba(120, 60, 15, 0.9);
+  --astro-code-token-comment: rgba(42, 22, 8, 0.38);
+  --astro-code-token-keyword: rgba(90, 45, 12, 0.72);
+  --astro-code-token-parameter: rgba(42, 22, 8, 0.88);
+  --astro-code-token-function: rgba(140, 75, 18, 0.9);
+  --astro-code-token-string-expression: rgba(120, 60, 15, 0.8);
+  --astro-code-token-punctuation: rgba(42, 22, 8, 0.52);
+  --astro-code-token-link: rgba(140, 75, 18, 0.8);
 }
 
-/* Light Mode (Explicit) */
+/* Sepia Light Mode (Explicit) */
 html.light {
-  --bg: #ffffff;
-  --text-primary: rgba(0, 0, 0, 0.85);
-  --text-secondary: rgba(0, 0, 0, 0.4);
-  --text-tertiary: rgba(0, 0, 0, 0.24);
-  --border: rgba(0, 0, 0, 0.1);
-  --selection: rgba(0, 0, 0, 0.08);
-  --code-bg: rgba(0, 0, 0, 0.04);
-  --mark: #f3ffc4;
+  --bg: #f5ede0;
+  --text-primary: rgba(42, 22, 8, 0.88);
+  --text-secondary: rgba(42, 22, 8, 0.48);
+  --text-tertiary: rgba(42, 22, 8, 0.28);
+  --border: rgba(42, 22, 8, 0.12);
+  --selection: rgba(42, 22, 8, 0.1);
+  --code-bg: rgba(42, 22, 8, 0.06);
+  --mark: #e8c87a;
 
-  /* Syntax Theme  */
-  --astro-code-foreground: rgba(0, 0, 0, 0.85);
-  --astro-code-background: rgba(0, 0, 0, 0.03);
-  --astro-code-token-constant: rgba(0, 0, 0, 0.85);
-  --astro-code-token-string: rgba(0, 0, 0, 0.85);
-  --astro-code-token-comment: rgba(0, 0, 0, 0.35);
-  --astro-code-token-keyword: rgba(0, 0, 0, 0.5);
-  --astro-code-token-parameter: rgba(0, 0, 0, 0.85);
-  --astro-code-token-function: rgba(0, 0, 0, 0.85);
-  --astro-code-token-string-expression: rgba(0, 0, 0, 0.55);
-  --astro-code-token-punctuation: rgba(0, 0, 0, 0.55);
-  --astro-code-token-link: rgba(0, 0, 0, 0.55);
+  /* Syntax Theme (Sepia Light) */
+  --astro-code-foreground: rgba(42, 22, 8, 0.88);
+  --astro-code-background: rgba(42, 22, 8, 0.04);
+  --astro-code-token-constant: rgba(42, 22, 8, 0.88);
+  --astro-code-token-string: rgba(120, 60, 15, 0.9);
+  --astro-code-token-comment: rgba(42, 22, 8, 0.38);
+  --astro-code-token-keyword: rgba(90, 45, 12, 0.72);
+  --astro-code-token-parameter: rgba(42, 22, 8, 0.88);
+  --astro-code-token-function: rgba(140, 75, 18, 0.9);
+  --astro-code-token-string-expression: rgba(120, 60, 15, 0.8);
+  --astro-code-token-punctuation: rgba(42, 22, 8, 0.52);
+  --astro-code-token-link: rgba(140, 75, 18, 0.8);
 }
 
-/* Dark Mode (Explicit) */
+/* Sepia Dark Mode (Explicit) */
 html.dark {
-  --bg: #1c1c1c;
-  --text-primary: rgba(255, 255, 255, 0.9);
-  --text-secondary: rgba(255, 255, 255, 0.4);
-  --text-tertiary: rgba(255, 255, 255, 0.24);
-  --border: rgba(255, 255, 255, 0.1);
-  --selection: rgba(255, 255, 255, 0.08);
-  --code-bg: rgba(255, 255, 255, 0.04);
-  --mark: #545b37;
+  --bg: #1e1409;
+  --text-primary: rgba(240, 218, 178, 0.92);
+  --text-secondary: rgba(240, 218, 178, 0.48);
+  --text-tertiary: rgba(240, 218, 178, 0.28);
+  --border: rgba(240, 218, 178, 0.12);
+  --selection: rgba(240, 218, 178, 0.1);
+  --code-bg: rgba(240, 218, 178, 0.06);
+  --mark: #3d2200;
 
-  /* Syntax Theme  */
-  --astro-code-foreground: rgba(255, 255, 255, 0.9);
-  --astro-code-background: rgba(255, 255, 255, 0.03);
-  --astro-code-token-constant: rgba(255, 255, 255, 0.9);
-  --astro-code-token-string: rgba(255, 255, 255, 0.9);
-  --astro-code-token-comment: rgba(255, 255, 255, 0.35);
-  --astro-code-token-keyword: rgba(255, 255, 255, 0.55);
-  --astro-code-token-parameter: rgba(255, 255, 255, 0.9);
-  --astro-code-token-function: rgba(255, 255, 255, 0.9);
-  --astro-code-token-string-expression: rgba(255, 255, 255, 0.55);
-  --astro-code-token-punctuation: rgba(255, 255, 255, 0.55);
-  --astro-code-token-link: rgba(255, 255, 255, 0.55);
+  /* Syntax Theme (Sepia Dark) */
+  --astro-code-foreground: rgba(240, 218, 178, 0.92);
+  --astro-code-background: rgba(240, 218, 178, 0.04);
+  --astro-code-token-constant: rgba(240, 218, 178, 0.92);
+  --astro-code-token-string: rgba(210, 158, 88, 0.9);
+  --astro-code-token-comment: rgba(240, 218, 178, 0.38);
+  --astro-code-token-keyword: rgba(218, 178, 105, 0.72);
+  --astro-code-token-parameter: rgba(240, 218, 178, 0.92);
+  --astro-code-token-function: rgba(228, 188, 118, 0.9);
+  --astro-code-token-string-expression: rgba(210, 158, 88, 0.8);
+  --astro-code-token-punctuation: rgba(240, 218, 178, 0.52);
+  --astro-code-token-link: rgba(210, 158, 88, 0.8);
 }
 
 html {

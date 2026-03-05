@@ -1,0 +1,118 @@
+---
+const projects = [
+  {
+    name: 'Declutter',
+    description: '[WIP] Super High Ingestion Analytics Platform',
+    url: 'https://github.com/mradigen/Declutter'
+  },
+  {
+    name: 'fastbloom',
+    description: 'Insanely fast Bloom Filter for Node.js, written in Rust',
+    url: 'https://github.com/mradigen/fastbloom'
+  },
+  {
+    name: 'selfhosted',
+    description: 'My homelab, defined in code [Infrastructure as Code]',
+    url: 'https://github.com/mradigen/selfhosted'
+  },
+  {
+    name: 'dotfiles',
+    description: 'Dotfiles for my niri + bspwm rice on Arch Linux',
+    url: 'https://github.com/mradigen/dotfiles'
+  }
+]
+---
+
+<section class="section">
+  <p class="section-label">Projects</p>
+  <ul>
+    {
+      projects.map((project) => (
+        <li>
+          <a href={project.url} target="_blank" rel="noopener noreferrer">
+            <div class="item">
+              <p class="name">{project.name}</p>
+              <div class="divider" />
+              <p class="desc">{project.description}</p>
+            </div>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  .section {
+    margin-bottom: 1.25rem;
+  }
+
+  .section-label {
+    margin: 0 0 0.25rem 0;
+    font-size: var(--font-size-s);
+    color: var(--text-tertiary);
+    letter-spacing: var(--spacing-s);
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  a {
+    color: var(--text-primary);
+    display: block;
+    text-decoration: none;
+    transition: opacity 0.15s ease-out;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    ul:hover a {
+      opacity: 0.4;
+    }
+
+    ul:hover a:hover {
+      opacity: 1;
+    }
+
+    ul:hover a:hover .divider {
+      background-color: var(--text-tertiary);
+      opacity: 0.75;
+    }
+  }
+
+  .item {
+    height: 2.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .name {
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .divider {
+    flex: 1 1 auto;
+    min-width: 3rem;
+    margin: 0 0.25rem;
+    height: 0.5px;
+    background-color: var(--border);
+  }
+
+  .desc {
+    margin: 0;
+    color: var(--text-secondary);
+    opacity: 0.75;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style>

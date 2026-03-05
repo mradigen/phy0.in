@@ -2,15 +2,12 @@
 title: 'About'
 ---
 
-<!--
-This content will be displayed at the top of the index page.
-You can leave this empty if you don’t want to show any content.
--->
+<!-- Hi, I'm Aadivishnu, a tech enthusiast who loves to code, build things, and automate workflows. -->
 
-A static blog theme based on [Astro](https://astro.build), designed for clarity and focus.
+Hi, I'm Aadivishnu, a tech enthusiast who loves to build, maintain, and break distributed systems.
 
-With a deliberately minimal design, this layout ensures your content takes center stage. It's built for flexibility, offering customization options that honor its clean and elegant aesthetic.
+I've worked across a wide range of tech domains: from building CPUs at the transistor level to creating Linux distros. My love for tech started at age 9 when I built my first 4-bit ALU out of discrete transistors.
 
-Effortlessly share your thoughts in _a calm & dustless space._
+Outside of tech, I enjoy [making music](https://youtube.com/adigen), [creating voxel art](https://instagram.com/mradigen), and [playing flight simulators](https://warthunder.com).
 
-Check posts for details and view source on [GitHub](https://github.com/the3ash/astro-chiri).
+[Github](https://github.com/mradigen) · [LinkedIn](https://linkedin.com/in/aadivishnu-gajendra) · [CTFTime](https://ctftime.org/team/303100) · [Resume](/resume.pdf)

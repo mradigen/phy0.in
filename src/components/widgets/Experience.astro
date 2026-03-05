@@ -1,0 +1,108 @@
+---
+const experiences = [
+  {
+    role: 'DevOps Engineer',
+    company: 'Tevatel',
+    location: 'Chennai, India',
+    period: 'May 2024 – Feb 2026'
+  },
+  {
+    role: 'Technical Lead',
+    company: 'Linux Users Group',
+    location: 'Chennai, India',
+    period: 'Sept 2023 – Oct 2024'
+  },
+  {
+    role: 'Founder & DevOps Engineer',
+    company: 'TripeOne',
+    location: 'Mumbai, India',
+    period: '2021 – 2023'
+  }
+]
+---
+
+<section class="section">
+  <p class="section-label">Experience</p>
+  <ul>
+    {
+      experiences.map((exp) => (
+        <li>
+          <div class="item">
+            <div class="left">
+              <p class="role">{exp.role}</p>
+              <p class="company">{exp.company} · {exp.location}</p>
+            </div>
+            <p class="dates">{exp.period}</p>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  .section {
+    margin-bottom: 1.25rem;
+  }
+
+  .section-label {
+    margin: 0 0 0.25rem 0;
+    font-size: var(--font-size-s);
+    color: var(--text-tertiary);
+    letter-spacing: var(--spacing-s);
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  li {
+    padding: 0.5rem 0;
+    border-bottom: 0.5px solid var(--border);
+  }
+
+  li:first-child {
+    border-top: 0.5px solid var(--border);
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    min-width: 0;
+  }
+
+  .role {
+    margin: 0;
+  }
+
+  .company {
+    margin: 0;
+    font-size: var(--font-size-s);
+    color: var(--text-secondary);
+    opacity: 0.75;
+  }
+
+  .dates {
+    margin: 0;
+    font-size: var(--font-size-s);
+    color: var(--text-secondary);
+    opacity: 0.75;
+    flex-shrink: 0;
+    white-space: nowrap;
+    letter-spacing: var(--spacing-s);
+    font-variant-numeric: tabular-nums;
+  }
+</style>
